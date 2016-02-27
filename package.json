@@ -1,19 +1,27 @@
 {
   "name": "user-story",
   "version": "1.0.0",
-  "description": "",
+  "description": "User Stories",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Emir Çokdoğan",
+  "author": "Emir Cokdogan",
   "license": "ISC",
+  "devDependencies": {},
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body": "^5.1.0",
     "express": "^4.13.4",
     "jsonwebtoken": "^5.7.0",
     "mongoose": "^4.4.5",
-    "morgan": "^1.7.0",
+    "morgan": "^1.7.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:secret-scrubland-10639.git"
   }
 }
