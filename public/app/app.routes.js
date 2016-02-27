@@ -23,6 +23,11 @@ angular.module("appRoutes", ["ngRoute"])
                         return Story.allStories();
                     }
                 }
+            })
+            .when("/users", {
+                templateUrl: "app/views/pages/users.html",
+                controller: "UserController",
+                controllerAs: "user"
             });
 
         $locationProvider.html5Mode(true);
