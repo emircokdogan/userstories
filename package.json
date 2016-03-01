@@ -17,9 +17,6 @@
     "mongoose": "^4.4.5",
     "morgan": "^1.7.0"
   },
-  "engines": {
-    "node": "0.10.x"
-  },
   "repository": {
     "type": "git",
     "url": "git@heroku.com:secret-scrubland-10639.git"
