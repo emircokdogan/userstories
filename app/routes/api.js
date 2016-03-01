@@ -123,7 +123,7 @@ module.exports = function (app, express, io) {
                     res.send(err);
                     return;
                 }
-                io.emit("story", newStory);
+                io.emit("allStoriesAdded", newStory);
                 res.json({
                     content: story.content,
                     message: "New Story Created!"
