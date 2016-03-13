@@ -18,9 +18,5 @@
     "mongoose": "^4.4.5",
     "morgan": "^1.7.0",
     "socket.io": "^1.4.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@heroku.com:secret-scrubland-10639.git"
   }
 }
